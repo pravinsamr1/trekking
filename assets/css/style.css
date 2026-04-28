@@ -18563,3 +18563,14 @@ td.remove button span {
   padding: 100px 0 40px!important;
 }
 }
+
+.detail-imagee{
+  height: 500px;
+   width:1920px;
+}
+
+@media(max-width:767px){
+  .detail-imagee{
+  height: 200px;
+}
+}
