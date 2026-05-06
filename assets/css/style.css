@@ -476,7 +476,7 @@ b, strong {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, .4);
   z-index: -1;
 }
 
@@ -12747,7 +12747,7 @@ video{
 }
 
 .sigma_footer .sigma_footer-widget {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   height: 100%;
 }
 
@@ -18408,7 +18408,7 @@ td.remove button span {
 
 .ptp {
 
-  padding-top: 80px;
+  padding-top: 50px;
 }
 
 .rt{
@@ -18573,4 +18573,12 @@ td.remove button span {
   .detail-imagee{
   height: 200px;
 }
+}
+
+.forest-list li i {
+  color: #2e7d32;
+  margin-right: 8px;
+}
+.forest-list li {
+  margin-bottom: 8px;
 }
