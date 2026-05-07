@@ -16356,6 +16356,35 @@ ul.theme-ul li img {
     font-size: 40px;
   }
 
+  .sigma_info-wrapper.style-25 .sigma_info.style-25 {
+    display: flex !important;
+    align-items: flex-start;
+    justify-content: center;
+    width: 320px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+
+  .sigma_info-wrapper.style-25 .sigma_info.style-25 .sigma_info-title {
+    flex: 0 0 auto;
+    justify-content: flex-start;
+  }
+
+  .sigma_info-wrapper.style-25 .sigma_info.style-25 .sigma_info-title .sigma_info-icon {
+    margin-right: 20px;
+  }
+
+  .sigma_info-wrapper.style-25 .sigma_info.style-25 .sigma_info-description {
+    flex: 1;
+    margin-top: 0 !important;
+  }
+
+  .sigma_info-wrapper.style-25 .sigma_info.style-25 .sigma_info-description li {
+    list-style-position: outside;
+  }
+
   .col-md-reverse {
     flex-direction: column-reverse;
   }
@@ -18573,6 +18602,11 @@ td.remove button span {
   .detail-imagee{
   height: 200px;
 }
+
+  .forest-list {
+    column-count: 1 !important;
+    column-gap: 0 !important;
+  }
 }
 
 .forest-list li i {
@@ -18581,4 +18615,16 @@ td.remove button span {
 }
 .forest-list li {
   margin-bottom: 8px;
+}
+
+
+.luisttt{
+  padding-top: 10px; padding: 30px; column-count: 3; column-gap: 30px;
+}
+
+
+@media(max-width:767px){
+  .luisttt{
+    padding: 0px;
+  }
 }
